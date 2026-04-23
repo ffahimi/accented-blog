@@ -1,7 +1,7 @@
 body {
-  font-family: Consolas, "Courier New", Courier, monospace;
-  font-size: 13px;
-  line-height: 1.45;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 15px;
+  line-height: 1.65;
   background: #efefef;
   color: #111;
   margin: 0;
@@ -9,11 +9,12 @@ body {
 }
 
 a {
-  color: #0000cc;
+  color: #0047cc;
   text-decoration: underline;
 }
 
 a:hover {
+  color: #ff2aa1;
   text-decoration: underline;
 }
 
@@ -27,55 +28,54 @@ td {
 
 #nav {
   width: 86px;
-  padding-right: 18px;
+  padding-right: 36px;
 }
 
 .nav-btn {
   display: block;
   width: 64px;
-  background: #6b6a9b;
-  color: #fff;
+  background: linear-gradient(to bottom, #1df2ff 0%, #00b7ff 100%);
+  color: #111;
   text-decoration: none;
   font-weight: bold;
+  font-family: Consolas, "Courier New", Courier, monospace;
   padding: 3px 6px 4px 6px;
-  margin-bottom: 2px;
-  border-top: 2px solid #9d9bc6;
-  border-left: 2px solid #9d9bc6;
-  border-right: 2px solid #4a496d;
-  border-bottom: 2px solid #4a496d;
-  box-shadow: 1px 1px 0 #8b8b8b;
+  margin-bottom: 4px;
+  border-top: 2px solid #b6ffff;
+  border-left: 2px solid #b6ffff;
+  border-right: 2px solid #006b91;
+  border-bottom: 2px solid #006b91;
+  box-shadow: 2px 2px 0 #8c8c8c;
 }
 
 .nav-btn:hover {
-  background: #5d5c89;
+  background: linear-gradient(to bottom, #ff59c7 0%, #ff2aa1 100%);
   color: #fff;
 }
 
 #content {
   width: 100%;
   max-width: 760px;
+  padding-top: 2px;
 }
 
 #wordmark {
-  font-size: 30px;
-  letter-spacing: 14px;
-  color: #dfdef1;
-  font-weight: normal;
-  margin: 0 0 10px 0;
-  user-select: none;
-  white-space: nowrap;
+  display: none;
 }
 
 h1 {
-  font-size: 18px;
-  color: #992222;
+  font-size: 22px;
+  color: #d11f63;
   margin: 8px 0 16px 0;
+  font-family: Consolas, "Courier New", Courier, monospace;
+  letter-spacing: 1px;
 }
 
 h2 {
-  font-size: 15px;
-  color: #992222;
+  font-size: 16px;
+  color: #d11f63;
   margin: 20px 0 10px 0;
+  font-family: Consolas, "Courier New", Courier, monospace;
 }
 
 p {
@@ -93,6 +93,8 @@ li {
 
 .meta {
   color: #555;
+  font-family: Consolas, "Courier New", Courier, monospace;
+  font-size: 12px;
 }
 
 .hero {
@@ -101,8 +103,8 @@ li {
   max-width: 410px;
   height: 250px;
   background:
-    linear-gradient(120deg, rgba(0,0,0,0.75), rgba(30,60,95,0.15)),
-    linear-gradient(90deg, #0f1822 0%, #16293f 42%, #7ba2c7 100%);
+    linear-gradient(120deg, rgba(0,0,0,0.78), rgba(45,20,70,0.18)),
+    linear-gradient(90deg, #101820 0%, #182d63 40%, #7ed6ff 100%);
   position: relative;
   overflow: hidden;
 }
@@ -115,7 +117,7 @@ li {
   width: 98px;
   height: 170px;
   background:
-    radial-gradient(circle, #00ff9d 0 3px, transparent 4px) 0 0 / 24px 24px;
+    radial-gradient(circle, #6aff6a 0 3px, transparent 4px) 0 0 / 24px 24px;
   filter: blur(0.2px);
   clip-path: polygon(
     40% 0%, 57% 0%, 57% 18%, 72% 18%, 72% 32%, 58% 32%, 58% 58%,
@@ -137,10 +139,11 @@ li {
 }
 
 .box-yellow {
-  background: #f2df58;
+  background: #fff16a;
   padding: 9px 11px;
   margin: 10px 0 0 0;
   font-weight: bold;
+  border-left: 4px solid #00c2ff;
 }
 
 .box-yellow a {
@@ -148,10 +151,11 @@ li {
 }
 
 .box-orange {
-  background: #f69b2d;
+  background: #ff9f1c;
   padding: 9px 11px;
   margin: 0 0 18px 0;
   font-weight: bold;
+  border-left: 4px solid #ff2aa1;
 }
 
 .essay-list {
@@ -207,12 +211,6 @@ li {
     display: inline-block;
     margin-right: 6px;
     margin-bottom: 6px;
-  }
-
-  #wordmark {
-    font-size: 22px;
-    letter-spacing: 8px;
-    white-space: normal;
   }
 
   .hero {
