@@ -144,24 +144,30 @@ li {
 }
 
 .box-yellow {
-  background: #fff16a;
-  padding: 9px 11px;
-  margin: 10px 0 0 0;
+  display: inline-block;
+  background: #efe6a6;
+  padding: 7px 10px;
+  margin: 6px 0 0 0;
   font-weight: bold;
-  border-left: 4px solid #00c2ff;
+  border-left: 3px solid #c9b85d;
+  max-width: 520px;
+}
+
+.box-orange {
+  display: inline-block;
+  background: #e8b26a;
+  padding: 7px 10px;
+  margin: 0 0 18px 0;
+  font-weight: bold;
+  border-left: 3px solid #b97a2f;
+  max-width: 520px;
 }
 
 .box-yellow a {
   font-weight: normal;
 }
 
-.box-orange {
-  background: #ff9f1c;
-  padding: 9px 11px;
-  margin: 0 0 18px 0;
-  font-weight: bold;
-  border-left: 4px solid #ff2aa1;
-}
+
 
 .essay-list {
   margin-top: 8px;
