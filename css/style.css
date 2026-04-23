@@ -49,8 +49,21 @@ td {
 }
 
 .nav-btn:hover {
-  background: linear-gradient(to bottom, #ff59c7 0%, #ff2aa1 100%);
-  color: #fff;
+  background: linear-gradient(to bottom, #fff799 0%, #ffd84d 100%);
+  color: #111;
+  border-top: 2px solid #fffccd;
+  border-left: 2px solid #fffccd;
+  border-right: 2px solid #a67c00;
+  border-bottom: 2px solid #a67c00;
+}
+
+.nav-btn.active {
+  background: linear-gradient(to bottom, #fff799 0%, #ffd84d 100%);
+  color: #111;
+  border-top: 2px solid #fffccd;
+  border-left: 2px solid #fffccd;
+  border-right: 2px solid #a67c00;
+  border-bottom: 2px solid #a67c00;
 }
 
 #content {
